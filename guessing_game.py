@@ -1,7 +1,7 @@
 import random
 
 def guessing_game():
-    answer = random.randint(1, 53)  # Use randint for inclusive range
+    answer = random.randint(1, 53)  
     tries = 4
 
     while tries > 0:
@@ -20,7 +20,7 @@ def guessing_game():
         else:
             print("Your guess is low")
 
-        tries -= 1  # Decrement tries
+        tries -= 1  
         print(f"You have {tries} tries left.")
 
     print(f"You ran out of tries. The answer was {answer}.")
