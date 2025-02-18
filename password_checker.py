@@ -2,7 +2,7 @@ import re
 
 def passwrd_checker():
     try:
-        first_name = input("What's your first name? ")  
+        first_name = input("What's your first name? ")  #check for first and last name
         last_name = input("What's your last name? ")  
         num = ["1234", "2468", "123", "007", "123456789", "987654321", "456", "567", "789", "678", "3456", "111", "222", "333", "444", "555", "666", "777", "888", "999"]
         good_patterns = ["-", "!", "@", "#", "$", "%", "^", "&", "*"]
